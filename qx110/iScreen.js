@@ -15,7 +15,7 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^https:\/\/cs\.kuso\.xyz\/ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/iScreen.js
+^https:\/\/cs\.kuso\.xyz\/ url script-response-body https://raw.githubusercontent.com/iyexiaolou/Quantumult-X/QXtest/qx110/iScreen.js
 
 [mitm] 
 
