@@ -3,12 +3,8 @@ hostname = wapside.189.cn, wapside.189.cn:900, alipaymini.189.cn, alipaymini.189
 # jd_appopen
 # ^https:\/\/api\.m\.jd\.com\/openUpgrade url script-request-header https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/utils/jd_appopen.js
 
-#Nobyda大佬更新2021.8.15
-# 开启抓包app后，Safari浏览器登录 https://home.m.jd.com/myJd/newhome.action 点击​​个人中心页面后，返回抓包app搜索关键字info/GetJDUserInfoUnion 复制请求头Cookie字段填写进入json串数据内能如需获取京东签到正文，可进入“京东金融”APP（iOS），在“首页”点击“金融签到”并签到一次，返回抓包app搜索关键字h5/m/appSign复制请求体填入json串数据内能
-#BoxJs或QX画廊订阅地址：https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 # 获取京东Cookie。
-^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request -header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-
+^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\
 #京喜（此部分还是建议用LXK大佬的，直接调用JDcookies方便，方便）
 #获取京喜代币方式
 #打开京喜农场，手动完成任务，必须完成任务领到水滴，提示获取cookie成功
