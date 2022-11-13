@@ -53,9 +53,6 @@ luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubus
 #伊利乳品 - 小程序
 https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/调用url script-request-body https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi .cookie.js
 
-#快手（Sunert）(第二条仅用于获取极速版cookies)
-https:\/\/activity\.m\.kuaishou\.com\/rest\/wd\/taskCenter\/\w+\/module\/list url script-request-header https://raw.githubusercontent.com /Sunert/Script/master/Task/kuaishou.js
-https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/Sunert/Script/master/Task/kuaishou.js
 
 #吾爱破解，获取Cookie(NobyDa)
 https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
