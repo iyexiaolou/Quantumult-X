@@ -8,8 +8,6 @@ hostname = wapside.189.cn, wapside.189.cn:900, alipaymini.189.cn, alipaymini.189
 #BoxJs或QX画廊订阅地址：https://raw.githubusercontent.com/NobyDa/Script/master/NobyDa_BoxJs.json
 # 获取京东Cookie。
 ^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request -header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-# 获取钢镚签到body.
-^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/hy\/h5\/m\/appSign\? url script-request-body https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 #京喜（此部分还是建议用LXK大佬的，直接调用JDcookies方便，方便）
 #获取京喜代币方式
